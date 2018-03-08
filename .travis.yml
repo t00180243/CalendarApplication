@@ -1,2 +1,3 @@
 #implement travis
 language: java
+os: windows
