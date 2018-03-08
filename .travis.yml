@@ -2,4 +2,5 @@
 language: java
 os: windows
 
-
+before_install:
+  - chmod +x gradlew
