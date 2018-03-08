@@ -1,5 +1,5 @@
 
-language: java
+language: android
 os: windows
 
 before_install:
