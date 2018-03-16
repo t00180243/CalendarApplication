@@ -1,5 +1,8 @@
 #TravisCI
 language: android
+before_install:
+    - chmod +x gradlew
+
 android:
   components:
   # Uncomment the lines below if you want to
@@ -22,8 +25,7 @@ android:
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
 
-  before_install:
-    - chmod +x gradlew
+
 
 
 
