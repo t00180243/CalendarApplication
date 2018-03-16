@@ -1,7 +1,6 @@
 #TravisCI
 language: android
-before_install:
-    - chmod +x gradlew
+os: windows
 
 android:
   components:
