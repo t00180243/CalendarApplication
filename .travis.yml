@@ -1,7 +1,7 @@
 #TravisCI
 language: android
 os: windows
-script: build.gradle
+
 
 android:
   components:
