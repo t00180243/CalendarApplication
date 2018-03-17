@@ -1,7 +1,8 @@
 #TravisCI Details
 language: android
 os: windows
-
+script:
+   - gradle build connectedCheck
 
 android:
   components:
@@ -22,8 +23,7 @@ android:
   licenses:
     - 'android-sdk-license-.+'
 
-script:
-   - .gradle build connectedCheck
+
 
 
 
