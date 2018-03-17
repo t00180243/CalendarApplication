@@ -23,7 +23,7 @@ android:
     - 'android-sdk-license-.+'
 
 script:
-   - gradle build connectedCheck
+   - .gradle build connectedCheck
 
 
 
