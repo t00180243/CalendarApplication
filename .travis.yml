@@ -62,6 +62,9 @@ before_script:
  #- android-wait-for-emulator
 # - adb shell input keyevent 82 &
 
+after_success:
+  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
+
 
 
 
